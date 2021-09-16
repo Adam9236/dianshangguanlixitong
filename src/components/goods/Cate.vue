@@ -32,7 +32,7 @@
           <el-tag size="mini" type="warning" v-else>三级</el-tag>
         </template>
         <!-- 操作 -->
-        <template slot="opt" slot-scope="scope">
+        <template slot="opt">
           <el-button size="mini" icon="el-icon-edit" type="primary">编辑</el-button>
           <el-button size="mini" icon="el-icon-delete" type="danger">删除</el-button>
         </template>

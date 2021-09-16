@@ -3,7 +3,7 @@
     <!-- 头部区域 -->
     <el-header>
       <div>
-        <img src="../assets/donggu.png" alt="">
+        <img src="../assets/back-stage.png" alt="">
         <span>电商后台管理系统</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
@@ -114,6 +114,10 @@ export default {
     display: flex;
     align-items: center;
     transform: translate(5px, 0);
+    img {
+      height: 54px;
+      width: 54px;
+    }
     span {
       margin-left: 20px;
     }
@@ -136,7 +140,7 @@ export default {
 }
 .toggle-button {
   background-color: #4a5064;
-  font-size: 10px;
+  font-size: 5px;
   line-height: 24px;
   color: #FFF;
   text-align: center;
